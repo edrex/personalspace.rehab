@@ -1,0 +1,78 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    // Bootstrap
+    link(href='https://bootswatch.com/flatly/bootstrap.min.css', rel='stylesheet')
+    //if lt IE 9
+      script(src='https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js')
+      script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')
+  
+    title Personalspace Rehab
+  body
+    .container
+      .jumbotron
+        h1 Personal Space Rehab 
+        p It can fit a whole person
+
+
+    .container
+      .row
+        .col-sm-7
+          :markdown
+            ## Process
+
+            Our Real Estate Sponsors combine realtor saavy with counseling services to support your transition to a small spaces environment. 
+
+
+            **Step 1**: Meet with a Sponsor to determine the severity of your space addiction.
+
+            **Step 2**: You sponsor will help you tour the spaces that fit both your budget and space addition level. 
+
+            **Step 3**: It's move in day! You begin your life in your new space.
+            
+            *Don't worry!* Your Sponsor will be on call in order to provide further counseling when needed. 
+
+        .col-sm-5
+          img.img-responsive(src="http://media-cdn.tripadvisor.com/media/photo-s/02/26/61/e5/you-can-fit-a-whole-person.jpg")
+    #listings-container.container
+      h2 Listings
+      .row
+       .col-sm-4
+        h4 Freedom Center
+        img.img-responsive(src='http://cdn.cstatic.net/images/gridfs/50fffcb2f92ea10ef801f029/RSHP1.jpg')
+       .col-sm-4
+        h4 Footprint NW - Portland
+        img.img-responsive(src='http://cdn2.tinyhouseliving.com/wp-content/uploads/Capsule-Micro-Apartments-Exterior-600x449.png')
+       .col-sm-4
+        h4 SE Space Capsules
+        img.img-responsive(src='http://www.uniqhotels.com/media/hotels/46/9-hours-capsule-hotel-07.jpg')
+    .container
+      h2 Additional Services
+      .row
+       .col-md-3
+        h3 Emergency Space Withdrawal Counseler
+       .col-md-3
+        h3 Space Saver Consultants
+       .col-md-3
+        h3 Anti-Hoarding Consultants 
+       .col-md-3
+        h3  Micro Food / Soylent Chefs 
+      h2 Testimonials
+      .row
+       .col-md-6
+        h3 Martha Stewart 
+        p: i Working with Personal space.rehab helped me embrace my smaller space!
+        img.img-responsive(src="http://cbsnews1.cbsistatic.com/hub/i/r/2004/10/06/d04eac51-a642-11e2-a3f0-029118418759/thumbnail/620x350/9a97df19cfb604b912e8160a3b01d3b2/image647813x.jpg")
+       .col-md-6
+         h3 Famous Cartoon Celeb
+         p: i I sleep in a drawer.
+         iframe(width="420" height="315" src="https://www.youtube.com/embed/NG5WdRyHFF8?modestbranding=1&start=8" frameborder="0" allowfullscreen)
+
+    // jQuery (necessary for Bootstrap's JavaScript plugins)
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+    // Include all compiled plugins (below), or include individual files as needed
+    script(src='js/bootstrap.min.js')
+    
